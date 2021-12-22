@@ -9,10 +9,12 @@ function App(props) {
   return (
      <div>     
       <Routes>
+        
          <Route index path='/vip/home' element={<Home />} />
          <Route index path='/vip/building' element={<Building />} />
          <Route index path='/vip/building/:apartment_id/detail' element={<Detail />} />
          <Route index path='/vip/location' element={<Location />} />
+         < Redirect from="/" to="/vip/home" />
       </Routes>
      
      
