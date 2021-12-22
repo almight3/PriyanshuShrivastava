@@ -1,0 +1,18 @@
+body{
+    margin: auto 30px;
+}
+
+.building-filter{
+    padding :0.2rem; 
+    font-size :10px ; 
+    background-color:#6c757d;
+    color:#fff; 
+    border-color: #6c757d; 
+    border-radius:5px; 
+    display: inline-block;
+    margin : 2rem 5rem 2rem 0.5rem
+}
+.building-label{
+    /* //argin:2rem 2rem;  */
+    font-size:10px;
+}
